@@ -1,0 +1,42 @@
+---
+title: "Data Standards Project Table Demo"
+format: html
+editor: source
+---
+
+```{r}
+#| label: setup
+#| include: false
+
+library(tidyverse)
+library(DT)
+
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{r}
+#| warning: false
+#| message: false
+
+raw_doc <- readLines("IBioLS Standards WG_ 2023 Updates .txt")
+table_data <- tibble(
+  Project = raw_doc[grepl("Project:", raw_doc)] |>
+    str_remove_all("Project: "),
+  Organization = raw_doc[grepl("Organization/s:", raw_doc)] |>
+    str_remove_all("Organization/s: "),
+  `Contact Name` = raw_doc[grepl(" name:", raw_doc)] |>
+    str_remove_all("Your name: ") |>
+    str_remove_all("Contact name: "),
+  `Contact Email` = raw_doc[grepl(" email:", raw_doc)]|>
+    str_remove_all("Contact email: ") |>
+    str_remove_all("Your email: "),
+  Description = raw_doc[grepl("Description:", raw_doc)] |>
+    str_remove_all("Description: "))
+```
+
+```{r}
+DT::datatable(table_data,
+              rownames = FALSE)
+```
+
+

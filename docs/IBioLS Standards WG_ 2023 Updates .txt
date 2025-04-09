@@ -1,0 +1,276 @@
+﻿Data Standardization Working Group
+
+
+As we revive activities of the working group, we’d like to collect updates on efforts of past and new members relating to data standardization and interoperability in bio-logging science and practice. The purpose of this summary is to support members in contacting each other directly about topics of interest, and to develop an agenda for future working group meetings, beginning at the Bio-Logging Science Symposium in Tokyo in March 2024 and beyond.
+
+
+Please copy and fill out the template below to share information about your recent projects. Work relevant to bio-logging standards and interoperability could relate to data sharing and harmonization, automated transfer protocols, database integration, etc.
+
+
+In addition, as you may expect given our low activity levels, we would be very grateful for one or more volunteers to join us as co-chairs and help us to organize more regular communications. Please contact us if you are interested!
+
+
+Sincerely,
+
+
+Co-chairs Francesca Cagnacci, Sarah Davidson & Peggy Newman
+francesca.cagnacci@fmach.it, sdavidson@ab.mpg.de, Peggy.Newman@csiro.au 
+
+
+
+
+Copy the template below to introduce your relevant resources and initiatives
+——————————
+Project: Application of big data of marine life
+BLS8 presentation:none
+Organization/s: The Sasakawa Peace Foundation
+Your name: Tomonari Akamatsu
+Your email: akamatsu.tom@gmail.com
+Description: A research program of Ministry of Education, Culture, Sports, Science and Technology, Japan, big data collected by biologging and other means will be used to provide solutions for social issues. This program linled to the UN decade of ocean science for sustainable development.———
+
+
+Project: MOVE2GBIF: Mobilizing animal GPS tracking data to Movebank and GBIF
+BLS8 presentation: More than a 'bank': Using Movebank for collaborative research and applications, Poster session, Wednesday, 6 March, 5:30 PM - 7:30 PM
+Organization/s: Radboud University, Research Institute for Nature and Forest (INBO), Sovon, Max Planck Institute of Animal Behavior, Dutch Bryological and Lichenological Society
+Contact name: Sarah Davidson, Peter Desmet
+Contact email: sdavidson@ab.mpg.de, peter.desmet@inbo.be 
+Description: We developed reproducible protocols to transform data from UvA-BiTS GPS trackers to Movebank format, create Frictionless Data Package from Movebank data, and transform Movebank format data to Darwin Core and Ecological Metadata Language. Results are summarized in van der Kolk et al. (2022) and include the R package movepub, a set of best practices for Movebank users, and 15 transformed datasets made public in Movebank and published on Zenodo, GBIF and OBIS.
+Status: The funded project is complete. There has been some uptake of the protocols by other organizations. Envisioned future efforts are proposed in the best practices.
+
+
+Project: ZoaTrack animal tracking data platform 
+Organization/s: Atlas of Living Australia (ALA)
+Contact name: Peggy Newman, Peter Brenton
+Contact email: Peggy.Newman@csiro.au, Peter.Brenton@csiro.au         
+Description: ZoaTrack is a platform developed in Australia for managing and visualizing GPS animal tracking data. See https://zoatrack.org/projects for more detail.
+Status: The ZoaTrack platform software stack and user authentication system is now well out of support and the ALA seeks to decommission the platform. Open data projects will be transferred into occurrence records in the ALA and GBIF. The ALA will support work to ensure that telemetry data is represented in the GBIF Unified Model, see https://www.gbif.org/new-data-model.
+
+
+Project: Euromammals
+Organization/s: Bottom up, 250+ Institutes, Coordination ad Fondazione E. Mach
+Contact name: Francesca Cagnacci
+Contact email: francesca.cagnacci@fmach.it 
+Description: EuroMammals is a 15 yrs old bottom-up collaborative project on spatial ecology of European terrestrial mammals. See euromammals.org
+Status: Euromammals is composed by several networks of research (largely based on single species) to address common basic and applied scientific questions at the multi-population/species distribution range scale. It is supported by a spatial database with a key core structure for animal movement data (Urbano et al. 2010, PTRSB), largely shared with the MoveBank core structure. It also contains CameraTrapping data, that align to the recent CamTrapDP standard. Other parts of the database are customary. There are projects for automatic transfer of metadata to MoveBank, and realization of API for interoperability.
+
+
+Project: Visualizing Life in the Deep
+BLS8 presentation: Workshop Sun 3/3 on Immersive 3D Visualization for Biologging Data & Poster ([6PI-14]) Immersive 3D biologging visualizations facilitate analysis, collaboration, and communication - Wed. Mar 6, 5:30 PM - 7:30 PM
+Organization/s: Scripps Institution of Oceanography, University of California San Diego
+Contact name: Jessica Kendall-Bar
+Contact email: jkendallbar@ucsd.edu 
+Description: This workshop and poster review some of our nascent current efforts to transform a series of bespoke animation tools (paper [Full Text], Coursera course, examples, & Github) into a web browser tool for biologging scientists to better visualize multimodal (diving + GPS + physiology + behavioral) data, automate behavioral labeling, review model performance, and generate insights. This project would greatly benefit from a shared ontology and the implementation of data standards for higher resolution diving and physiology data (not just tracking data) such as databases and APIs like the one we have implemented for our app (see sample API here).
+
+
+Project: Reporting standards to promote animal welfare and data quality in biologging research
+BLS8 presentation: Ethical considerations for bio-logging studies on swimmers, walkers, and flyers - Oral session, Monday, March 4, 3:45pm
+Organization/s: University of California, Santa Cruz
+Your name: Allison Payne, Conner Hale, Jessica Kendall-Bar, Roxanne Beltran
+Your email: alrpayne@ucsc.edu
+Description: We have described a minimum reporting standard for instrument characteristics to facilitate future meta-analyses on the impacts of biologging instruments on animal welfare and data quality. Preprint available here. 
+
+Project: Swedish Biologging data - WRAM & SBDI
+Organization/s: Dept. of Wildlife, Fish, and Environmental Studies, Swe.University of Agricultural Sciences
+Contact name: Petter Lundberg
+Contact email: petter.lundberg@slu.se 
+Description: WRAM – Wireless Remote Animal Monitoring – a national infrastructure for biologging, designed to facilitate bio-logging data capture, storage and visualisation. WRAM is one of the pillars of SBDI – the Swedish Biodiversity Data Infrastructure. SBDI is Sweden’s largest freely available biodiversity database, bringing in data from various national sources. SBDI is the Swedish node of GBIF. Within SBDI there is a collaboration between WRAM and CAnMove (Lund University) to develop a common database with a common biologging data standard aimed to be general to be able to encompass data from any sensor type. Our biologging sensor data model is documented here: https://github.com/biodiversitydata-se/biologging-sensor-datamodel. The SBDI Biologging data portal (with a first view datasets) is found here: https://biologging.biodiversitydata.se/  
+
+
+Project: Large, heterogeneous, high-resolution bio-logging datasets informing conservation: new challenges and opportunities for data standardization and analysis.
+BLS8 presentation: Poster ([6PI-28]) Decoding Ten Years of Little Penguin Foraging: Bio-Logging Reveals Foraging Patterns with Implications for Climate Change Mitigation and Marine Spatial Planning - Wed. Mar 6, 5:30 PM - 7:30 PM
+Organization/s: Laboratoire L3i, Pôle Sciences et Technologie, Equipe Prédateurs Marins / Marine Predators Team, Centre d’Etudes Biologiques de Chizé (CEBC), CNRS-La Rochelle Université
+Contact name: Marianna Chimienti
+Contact email: mariannachimienti@gmail.com
+Description: High-resolution bio-logging data (e.g. accelerometer and video data) have been collected worldwide across species and ecosystems. The resulting datasets can provide powerful detailed information on species behavioral adaptability in response to climate variation and inform conservation (see for example Chimienti et al. 2022 and work in review presented at BLS8). Yet, we are lacking data standardization and data sharing practice to be able to further develop analytical tools able to process data across species and ecosystems, as well as promote interoperability and collaborations between scientists across disciplines (e.g. theoretical and applied ecology, engineer, computer science and data science).
+
+
+Project: COVID-19 Bio-logging Initiative
+BLS8 presentation: Theme Session Thursday 7th Afternoon
+Organization/s: There is a Steering Committee formed by ca. 15 scientists. The Chair is Christian Rutz. Federico Ossi is the person in charge of communication. Others have different roles, spanning from leading subprojects to helping with data curation. 
+Your name: Federico Ossi
+Your email: federico.ossi@fmach.it
+Description: The COVID 19 Bio-logging Initiative was initiated in early 2020 during the first phases of the pandemic. A restricted group of scientists, all members of the International Bio-logging Society, set up the Initiative to collect data from the whole globe in order to evaluate the response of wildlife to the so called ‘Anthropause’ (a term which was invented by the same group of scientists and published in a Science paper in 2020). Since then, more than 500 people joined the Initiative, the most of which providing access to their bio-logging data (mostly GPS). Within the Initiative, several sub-projects have been identified and taken over by 1-2 leaders who are members of the Steering Committee. Since 2022, the Initiative has been funded by the Moore Foundation, which gave the possibility to hire three postdocs working full time on the topics. From a practical perspective, there is not a proper database with all collected and cleaned datasets. However, there is a dataset with links to the data provided by data owners, divided by species and region, so querying the areas of interest is relatively easy. Targeted databases have been then created by the data analysts of the sub-projects. 
+
+
+Project: European Tracking Network (ETN)
+BLS8 presentation: Poster 6PI-47 (Thursday afternoon): Geolocation modelling of a demersal shark
+Organization/s: Flanders Marine Institute (VLIZ), Ostend, Belgium
+Your name: Lotte Pohl
+Your email: lotte.pohl@vliz.be
+Description: The European Tracking Network is a pan-European network uniting researchers working (primarily) on acoustic telemetry, providing e.g. a database and working towards compatibility of research equipment. 
+
+
+Project:  DTO-Bio flow (Integration of Biodiversity monitoring data into the Digital Twin of the Ocean), DTO-Track (Digital Twin of the Ocean: Animal tracking), European Tracking Network (ETN)
+BLS8 presentation: Poster 6PI-39 (March 6th) - The European Tracking Network: Transitioning from institute-specific to European-wide data sharing and collaboration
+Organization/s: European Tracking Network (ETN), Flanders Marine Institute (VLIZ), Research Institute for Nature and Forest (INBO), and many others. 
+Your name: Claudia Meneses Moreno
+Your email: claudia.meneses@vliz.be
+Description: DTO-BioFlow will target the current challenges in the collection, harmonisation, accessibility, and analysis of marine biodiversity relevant data, the integration of these data and analytical tools into DTO architectures, and the applicability of a functioning DTO biodiversity component to address policy-relevant use cases. DTO-Track 
+
+
+Project: SEATRACK - seabird tracking
+BLS8 presentation: SEATRACK - Multi-species, multi-population tracking of seabirds on an ocean-basin scale, Friday, 8 March, 09:45-10:00 AM
+Organization/s: Norwegian Polar Institute, Norwegian Institute of Nature Research
+Your name: Benjamin Merkel
+Your email: benjamin.merkel@npolar.no 
+Description: SEATRACK aims to map the non-breeding distribution of seabirds breeding in colonies encircling the North Atlantic. We mainly use geolocators and have developed a standardised data procedure and a centralised database to ensure data integrity and traceability. Further, the project builds on an agreement of understanding between all partners as well as a science plan and a data request form.
+
+
+Project: Movebank vocabulary
+BLS8 presentation: More than a 'bank': Using Movebank for collaborative research and applications, Poster session, Wednesday, 6 March, 5:30 PM - 7:30 PM
+Organization/s: Max Planck Institute of Animal Behavior
+Contact name: Sarah Davidson
+Contact email: sdavidson@ab.mpg.de 
+Description: The attributes used in Movebank are available as a persistent, machine-readable vocabulary, hosted on the British Oceanographic Data Centre’s Natural Environment Research Council NERC Vocabulary Server at vocab.nerc.ac.uk/collection/MVB. The vocabulary has been built over time with input from hundreds of researchers and tag manufacturers, is used by initiatives, software packages and tag providers to offer consistent, transparent data reading, processing and storage.
+
+
+Project: Unique Animal IDs
+BLS8 presentation: Animal passports: Establishing Unique Animal IDs and a Digital Life History Museum for tracked wildlife
+Organization/s: Max Planck Institute of Animal Behavior
+Your name: Martin Wiskelski
+Your email: wikelski@ab.mpg.de
+Description: Researchers are monitoring more animals for longer and collecting a range of multi-media information about individuals throughout their lives. In addition to the sensor recordings themselves, information can come from photographs, text messages and news articles. Further, as more projects are shared and archived, we see a need to be able to recognize individuals across datasets to enable future efforts to bring together data globally. To address these challenges, we have launched the Movebank Life History Museum (MoMu) and Unique Animal Identifier (UAID) system to store accessory files related to tracked wildlife and assign persistent and unique identifiers for animals. Please visit https://animaltracker.app and to participate in beta testing of these new tools.
+
+
+Project: Biological Ubiquitous Network 
+BLS8 presentation: Daimyo sponsor presentation: Introduction of Druid Technology
+Organization/s: Druid Technology
+Your name: Lin Yan and Guozheng Li
+Your email: liguozheng@druid.tech
+Description: Comprehensive digitalization of the animal and environment becomes more and more important for scientific society and sustainable development of the world. Establishment of an ubiquitous network for transmitting the multidimensional data of animals, such as location, surrounding environment, behaviour, audio, and video etc., can facilitate the efficiency of data acquisition. Despite existing cellular networks and developing satellite networks, a natural network is the people's engagement with their smartphones. Please visit www.druid.tech and www.intelinkgo.com for more information.
+
+
+Project: Systematic review of open biologging data
+BLS8 presentation: poster
+Organization/s: none
+Your name: Max Czapanskiy 
+Your email: maxczapanskiy@gmail.com
+Description: How many species have we tracked with biologists? What’s the relative frequency of sensors we use? Most importantly, where do data end up after publication? These foundational questions are currently unanswerable, due to inconsistent publishing practices in our field. We are conducting a systematic review of biologging studies published 2007-2023 to create the first ever biologging bibliometric database. This work will establish a baseline for the state of open biologging data. Future work by this working group and other efforts will be able to use our database to test the effectiveness of their interventions. 
+
+
+Project: U.S. Animal Telemetry Network
+BLS8 presentation: none 
+Organization/s: U.S. Integrated Ocean Observing System, data from 100+ contributing institutions 
+Your name: Megan McKinzie
+Your email: mmckinzie@mbari.org 
+Description:  Operating under NOAA’s Integrated Ocean Observing System (IOOS), the multi-agency U.S. Animal Telemetry Network was developed in 2016 to provide unity, stability and continuity to the national infrastructure that facilitates the collection, management, standarization and availability of marine animal telemetry data derived through satellite, archival and acoustic tags and seeks to promote the integration of these data into our nation's ocean observing system cabapilities.
+
+
+Project: Integrated ocean observing systems for dynamic ocean management
+BLS8 presentation: Poster 6PI-29 (Wednesday afternoon): Linking bio-logging with integrated ocean observing systems to support dynamic ocean management
+Organization/s: University of Valencia
+Your name: David March
+Your email: david.march@uv.es
+Description: Integrative research aiming at monitoring marine megafauna by combining recent advances in quantitative methods (e.g. machine learning, movement analysis) with new molecular (DNA metabarcoding), and technological developments (underwater drones, earth observations, bio-logging).
+  
+Project: Global Wader
+BLS8 presentation: Global Wader: Challenges and Opportunities synthesising tracking studies of shorebirds (Thursday Morning 11:45)
+Organization/s: International Wader Study Group / University of Iceland
+Your name: Josh Nightingale
+Your email: josh@hi.is
+Description: Global Wader is a new, community-led initiative aiming to provide a definitive register of all wader/shorebird tracking projects currently underway or completed. The project has three main purposes: (1) maintain an up-to-date register of all wader tracking projects currently undertaken; (2) encourage best practices in the long-term storage of tracking data, including the use of specialist repositories via a partnership with Movebank; (3) facilitate collaborations between trackers, scientists and conservationists, including promoting open access to data, and facilitating data-sharing where appropriate, particularly for efforts towards the conservation of these species. https://www.globalwader.org/ 
+
+
+Project: Biologging intelligent Platform
+BLS8 presentation: Biologging intelligent Platform (BiP) is now open (Oral on Thursday morning) 
+Organization/s: University of Tokyo
+Your name: Katsufumi Sato
+Your email: katsu@aori.u-tokyo.ac.jp
+Description: Using a fund from “Application of big data of marine life (program manager Tom Akamatsu)” by the Ministry of Education, Culture, Sports, Science and Technology, Japan, we have established a new biologging data base “Biologging intelligent Platform”. There are several biologging databases in the world, a few data are uploaded from Japanese scientists. Japanese researchers have developed a variety of data loggers to measure not only position data but also various parameters such as depth, temperature, velocity, acceleration, and geomagnetism. Most existing biologging databases specialized for location data. It was difficult to upload such diverse time series data. It might be a reason why Japanese researchers hesitate to upload their data to the existing databases. To solve this situation, the BiP was developed. An important feature of BiP is the ability to store a variety of data in a standard format.
+
+
+Project: 
+BLS8 presentation: 
+Organization/s: Wildlife Computers
+Contact name: Melinda Holland
+Contact email: melinda@wildlifecomputers.com
+Description: Wildlife Computers produces tags that generate tracking and other types of data. We have produced data for over 35 years, so understand the many challenges of standardization of data.
+
+
+Project: Movement ecology of Arctic phocids in Alaska
+BLS8 presentation:none
+Organization/s: NOAA Fisheries, USA
+Your name: Josh London
+Your email: josh.london@noaa.gov
+Description: Research focuses on movement ecology and dive/haul-out behavior of Arctic seals in Alaska through the use of biologgers and novel quantitative methods. My interest in data standards focuses on the benefits to development of software and analytical tools (R packages e.g. animotum, crawl, pathroutr) and meeting government and community standards for data sharing and reproducibility in support of open science
+
+
+Project: Biologging intelligent Platform
+BLS8 presentation: [4C-01] Sponsor Presentation
+[Oral Presentation: 8O1-01]Revealing feline insights: Exploring domestic
+cat behavioral traits through Catlog Big Data (Oral on Friday morning) 
+Organization/s: Little Leonardo Co, Rabo Inc.
+Your name: Shinichi Watanabe
+Your email: watshin1@gmail.com
+Description: I am responsible for the development of BiP and data management of the collected data at Little Leonardo Co, working alongside Prof. Katsufumi Sato. Additionally, I analyze and publish data collected by Rabo, Inc., which offers a biologging monitoring service aimed at domestic cat health management. For an introduction to Little Leonardo Co, please refer to the sponsor presentation:4C-01, and for the analysis results from Rabo Corporation, please see the oral presentation: 8O1-01.
+
+
+Project: AfriMove
+BLS8 presentation: Biologging For conservation in changing southern African environments. Monday 4th March 14.00
+Organization/s: Okavango Research Institute, University of Botswana
+Your name: Emily Bennitt 
+Your email: ebennitt@ub.ac.bw
+Description: AfriMove is a collaborative database and network for GPS tracking data and associated information collected from animals in Africa, based on the EuroMammals framework. We aim to bring together people and data to allow large scale analyses and collaborations with conservation outcomes. 
+
+
+Project: 
+BLS8 presentation: none
+Organization/s: Open Robotics team at Intrinsic
+Your name: Mabel Zhang
+Your email: mabelzhang.github@gmail.com
+Description:
+1. In marine robotics, the wide variety of underwater acoustic sensors and sonars present challenges in standardizing the communication of sensor data from hardware to software. The challenge lies in the different types of measurements each brand and model of sensor provides, and the set of configurable parameters for each sensor. The open source marine robotics community using the Robot Operating System (ROS) has been collaborating to create a standard for sensor data communication for a few years. More recently, the same community is initiating an effort to standardize the coordinate frame used in the ecosystem, as conventional robotics frame orient with Z up, whereas marine industry historically orient with Z down.
+2. Some marine roboticists work closely with oceanographers and marine scientists and have the need to import some of the science data into robotics frameworks, to simulate the environment for testing robotics algorithms. For example, CTD data, bathymetry, algal bloom patches, etc. Learning about scientific formats such as netCDF helps simulation developers like Open Robotics be more aware of the type and format of science data.
+
+
+Project: Ocean Tracking Network
+BLS8 presentation: none
+Organization/s: Ocean Tracking Network (OTN)
+Your name: Robert Lennox
+Your email: robert.lennox@dal.ca
+Description: The Ocean Tracking Network (OTN) is a global aquatic research, data management and partnership platform headquartered at Dalhousie University in Halifax, Nova Scotia, Canada. OTN’s mission is to inform the stewardship and sustainable management of aquatic animals by providing knowledge on their movements, habitats and survival in the face of changing global environments.
+
+
+Project: The Shorebird Science and Conservation Collective
+BLS8 presentation: The collective application of tracking data to shorebird conservation (Presentation, AL Harrison) and Sharing Approaches for Integrating Wildlife Tracking Datasets for Conservation (Poster, A Anderson)
+Organization/s: The Shorebird Science and Conservation Collective, Smithsonian Migratory Bird Center
+Your name: Allie Anderson (Quantitative Ecologist) and Autumn-Lynn Harrison (PI)
+Your email: AndersonA@SI.edu and HarrisonAL@si.edu
+Description: The Shorebird Science and Conservation Collective brings together the knowledge of agencies, universities, nonprofits, and community scientists to advance shorebird conservation in the Western Hemisphere through the sharing of shorebird tracking data. To-date, over 6.7 million locations from >3,000 individual tracked shorebirds of 36 species have been shared by over 70 organisations, cleaned, and integrated into a central resource to inform on-the-ground conservation projects. A detailed description of the Shorebird Collective and its work in the first three years can be found at: https://www.biorxiv.org/content/10.1101/2024.01.30.576574v1
+
+
+Project: Pangeo: A community platform for Big Data geoscience
+Organization/s: Pangeo (open participation)
+Your name: Tina Odaka
+Your email: tina.odaka@ifremer.fr
+Description: The community platform resources for Pangeo might also be useful for the data standards WG.
+Discussion board: https://discourse.pangeo.io using discourse platform https://www.discourse.org
+GitHub organization: https://github.com/pangeo-data This is where we share codes, our website source code or meeting organisation, or code of conduct or community organisations.  
+Once in a week checkin meeting on zoom (time zone US oriented)
+YouTube channel for informational presentations that get DOIs (using zenodo)
+Other resources: STAC, open geo consorcium (ogc https://www.ogc.org/)
+
+
+Project: Neurodata Without Borders standard
+Organization/s: Neurodata Without Borders: Neurophysiology
+Your name: Sarah Davidson (heard about from geneticist Rupert Overall)
+Your email: sdavidson@ab.mpg.de
+Description: This standard includes one for movement and other biologging data (mostly for a lab setting). They have executive and technical advisory boards to raise funds, manage development and outreach. “Neurodata Without Borders (NWB) is a data standard for neurophysiology, providing neuroscientists with a common standard to share, archive, use, and build common analysis tools for neurophysiology data. NWB is designed to store a variety of neurophysiology data, including data from intracellular and extracellular electrophysiology experiments, data from optical physiology experiments, and tracking and stimulus data. The project includes not only the NWB format, but also a broad range of software for data standardization and application programming interfaces (APIs) for reading and writing the data as well as high-value data sets that have been translated into the NWB data standard.”
+
+
+Project: RTrack package and trackxf format
+Organization/s: Humboldt University of Berlin
+Your name: Sarah Davidson (developed by geneticist Rupert Overall)
+Your email: sdavidson@ab.mpg.de
+Description: “Rtrack is a package to process raw spatial tracking data (such as from the Morris water maze or open field tests) and calculate behavioural strategies. The strategy analysis is performed in a parameter-free manner using pre-trained machine learning models. This makes analysis both fast and reproducible. In addition, the package includes several plotting functions, tools to aid advanced analysis, and export functions for results and raw data. The export of raw data in a standardised format allows complete experiments to be archived and shared.”
+
+
+Project: Motus Wildlife Tracking System 
+
+Organization/s: Birds Canada
+
+Your name: Stuart Mackenzie and Catherine Jardine
+
+Your email: smackenzie@birdscanada.org
+
+Description: The Motus Wildlife Tracking System (Motus) is an international collaborative research network that uses coordinated automated radio telemetry to facilitate research and education on the ecology and conservation of migratory animals. Motus is a program of Birds Canada in partnership with collaborating researchers and organizations.
