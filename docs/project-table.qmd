@@ -32,6 +32,9 @@ table_data <- tibble(
     str_remove_all("Your email: "),
   Description = raw_doc[grepl("Description:", raw_doc)] |>
     str_remove_all("Description: "))
+
+table_data <- table_data |>
+  select(-`Contact Email`)
 ```
 
 ```{r}
