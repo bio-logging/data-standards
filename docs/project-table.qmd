@@ -34,8 +34,13 @@ table_data <- tibble(
     str_remove_all("Description: "))
 
 table_data <- table_data |>
-  select(-`Contact Email`)
+  mutate(
+    # remove the line below to put contact email info back into the table
+  # suppressed for now until we can check with folks re: sharing this info
+    `Contact Email` = "",
+    `Tags` = "")
 ```
+
 
 ```{r}
 DT::datatable(table_data,
