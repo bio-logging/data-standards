@@ -1,5 +1,5 @@
 ---
-title: "Data Standards Projects"
+title: "Bio-Logging Data Standards Initiatives"
 format: html
 editor: source
 ---
@@ -59,6 +59,11 @@ if (read_original_doc){
 
 ```{r}
 DT::datatable(table_data,
+              options = list(
+                pageLength = 20),
+              caption = htmltools::tags$caption(
+                style = 'caption-side: top; text-align: left;',
+                'IN PROGRESS: Community initiatives for harmonizing animal tracking and other bio-logging data and developing prototypes for global standards. Contact ibls.datastandards@gmail.com for more information.'),
               rownames = FALSE)
 ```
 
