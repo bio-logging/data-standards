@@ -1,6 +1,8 @@
 ---
 title: "Bio-Logging Data Standards Initiatives"
-format: html
+format: 
+  html:
+    page-layout: full
 editor: source
 ---
 
@@ -54,11 +56,21 @@ if (read_original_doc){
   table_data <- read_csv(table_file,
                          show_col_types = FALSE)
 }
+
+# make websites into links not just text
+table_data <- table_data |>
+  mutate(
+    Website = if_else(str_starts(Website, pattern = "http"),
+                      Website,
+                      paste0("https://", Website)),
+    Website = if_else(is.na(Website), Website,
+                           paste0('<a href=\"', Website, '">', Website, "</a>")))
 ```
 
 
 ```{r}
 DT::datatable(table_data,
+              escape = FALSE,
               options = list(
                 pageLength = 20),
               caption = htmltools::tags$caption(
