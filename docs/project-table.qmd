@@ -75,7 +75,7 @@ DT::datatable(table_data,
                 pageLength = 20),
               caption = htmltools::tags$caption(
                 style = 'caption-side: top; text-align: left;',
-                'IN PROGRESS: Community initiatives for harmonizing animal tracking and other bio-logging data and developing prototypes for global standards. Contact ibls.datastandards@gmail.com for more information.'),
+                'IN PROGRESS: An inventory of community initiatives working towards data standardization and interoperability in bio-logging science and practice. Managed by the Data Standardization Working Group of the International Bio-Logging Society (https://bio-logging.net/wg/data-standardisation).'),
               rownames = FALSE)
 ```
 

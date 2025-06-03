@@ -1,2 +1,2 @@
 # data-standards
-A catalog of initiatives working towards data standardization and interoperability in bio-logging science and practice. Managed by the International Bio-Logging Society's Data Standardization Working Group.
+An inventory of community initiatives working towards data standardization and interoperability in bio-logging science and practice. Managed by the [International Bio-Logging Society's Data Standardization Working Group](https://bio-logging.net/wg/data-standardisation/). Initiatives in this inventory are integrating animal tracking and bio-logging data across multiple groups, developing global data standards, and providing opportunities to participate. Send a pull request or contact ibls.datastandards@gmail.com to contribute.
